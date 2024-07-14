@@ -1,0 +1,9 @@
+.product_detail .mySwiper .swiper-wrapper {
+  flex-direction: column;
+  @apply space-y-4;
+}
+
+.product_detail .mySwiper .swiper-wrapper .swiper-slide {
+  height: max-content;
+  width: 100% !important;
+}
